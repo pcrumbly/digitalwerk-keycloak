@@ -2,7 +2,7 @@
 
 
 #kcInfoAreaWrapperClass {
-  color: red;
+  color: #22405c;
 }
 
 .login-pf-signup {
@@ -44,7 +44,7 @@
 }
 
 .loginBtn {
-  background-color: #B81220;
+  background-color: #ff6905;
   color: #FAFAFA;
   padding: 6px;
   width: 104px;
@@ -56,7 +56,7 @@
 .registerBtn {
   text-decoration: none;
   color: #FAFAFA !important;
-  border: 2px solid #B81220; 
+  border: 2px solid #ff6905; 
   border-radius: 4px;
   padding: 8px 12px 8px 12px;
   background-color: #0D0D0D;
@@ -82,19 +82,19 @@ span[data-kc-msg="noAccount"] {
 }
 
 span[data-kc-msg="doForgotPassword"] {
-  color: #DB4F59;
+  color: #ff6905;
 }
 
 span[data-kc-msg="doForgotPassword"]:hover {
-  color: #B81220 !important;
+  color: #ff6905 !important;
 }
 
 .about {
-  color: #DB4F59
+  color: #ff6905
 }
 
 .about:hover {
-  color: #B81220 !important;
+  color: #ff6905 !important;
 }
 
 .modal-overlay {
@@ -141,7 +141,7 @@ span[data-kc-msg="doForgotPassword"]:hover {
 .gradient-background {
   width: 80%;
   height: 100vh;
-  background: linear-gradient(180deg, #ff6905 45%, #22405c 45%);
+  background: white;
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   position: relative;
 }

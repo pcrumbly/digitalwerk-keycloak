@@ -220,7 +220,7 @@ export default function Login(props: PageProps<Extract<KcContext, { pageId: "log
                         <img src={login1} alt="Bottom Left img" className="login-bottom-left-image" />
                     </div>
                     <div className="login-logo-container">
-                        <img src={mambaLogo} alt="VENOM Logo" className="venom-logo" />
+                        <img src="https://241932339.fs1.hubspotusercontent-na2.net/hubfs/241932339/DigitalWERX.png" alt="DigitalWERX Cloud Logo" className="venom-logo" />
                     </div>
                 </div>
                     
