@@ -269,7 +269,13 @@ function PasswordWrapper(props: { kcClsx: KcClsx; i18n: I18n; passwordInputId: s
                 onClick={toggleIsPasswordRevealed}
             >
                 <i aria-hidden>
-                    <img src={passwordIcon} alt="Show/Hide Password" />
+                    <img 
+                        src={passwordIcon} 
+                        alt="Show/Hide Password" 
+                        style={{
+                            filter: 'brightness(0) saturate(100%) invert(50%) sepia(78%) saturate(1170%) hue-rotate(343deg) brightness(101%) contrast(106%)'
+                        }} 
+                    />
                 </i>
             </button>
         </div>
