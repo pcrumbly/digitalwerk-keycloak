@@ -141,7 +141,7 @@ span[data-kc-msg="doForgotPassword"]:hover {
 .gradient-background {
   width: 80%;
   height: 100vh;
-  background: linear-gradient(167deg, rgba(0, 24, 66, 0.75) 4.72%, rgba(204, 21, 36, 0.75) 95.09%);
+  background: linear-gradient(180deg, #ff6905 45%, #22405c 45%);
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   position: relative;
 }

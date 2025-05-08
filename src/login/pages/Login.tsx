@@ -176,7 +176,7 @@ export default function Login(props: PageProps<Extract<KcContext, { pageId: "log
                             </span>
                             <div style={{marginTop: '2rem'}}>
                                 <a className="about" onClick={handleShowModal}>
-                                    About VENOM
+                                    About DigitalWERX Cloud
                                 </a>
                             </div>
                         </div>
@@ -227,17 +227,17 @@ export default function Login(props: PageProps<Extract<KcContext, { pageId: "log
                 {showAboutModal && (
                     <div className="modal-overlay" onClick={handleShowModal}>
                         <div className="modal" onClick={(e) => e.stopPropagation()}>
-                            <div style={{fontSize: '30px', marginLeft: '10px'}}>About VENOM</div>
+                            <div style={{fontSize: '30px', marginLeft: '10px'}}>About DigitalWERX Cloud</div>
                             <div className="modal-space">
-                                VENOM is an all-in-one, fully managed digital engineering platform that eliminates the hassle of software management,
+                                DigitalWERX Cloud is an all-in-one, fully managed digital engineering platform that eliminates the hassle of software management,
                                 vendor integrations, and hiring specialized talent—so you can focus on driving progress. 
                             </div>
                             <div className="modal-space">
-                                Offering secure, customizable environments tailored to your needs, VENOM delivers cutting-edge 
+                                Offering secure, customizable environments tailored to your needs, DigitalWERX Cloud delivers cutting-edge 
                                 tools with powerful collaboration features at a fraction of the cost—saving you up to 95% compared to traditional software.
                             </div>
                             <div className="modal-space">
-                                Built to meet the highest compliance standards, including FedRAMP High and Impact Levels 5 and 6, VENOM provides seamless
+                                Built to meet the highest compliance standards, including FedRAMP High and Impact Levels 5 and 6, DigitalWERX Cloud provides seamless
                                 integration with your existing infrastructure,
                                 uncompromising security, and freedom from complexity—all in one streamlined solution.
                             </div>
