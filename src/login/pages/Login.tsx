@@ -179,6 +179,9 @@ export default function Login(props: PageProps<Extract<KcContext, { pageId: "log
                                     About DigitalWERX Cloud
                                 </a>
                             </div>
+                            <div>
+                                <a href="https://helpcenter.jira.digitalwerx.org" style={{color: '#ff6905'}}>DigitalWERX Support</a>
+                            </div>
                         </div>
                     </div>
                 }
@@ -216,8 +219,6 @@ export default function Login(props: PageProps<Extract<KcContext, { pageId: "log
             >
                 <div className="login-container">
                     <div className="gradient-background">
-                        <img src={login2} alt="Top right img" className="login-top-right-image" />
-                        <img src={login1} alt="Bottom Left img" className="login-bottom-left-image" />
                     </div>
                     <div className="login-logo-container">
                         <img src="https://241932339.fs1.hubspotusercontent-na2.net/hubfs/241932339/DigitalWERX.png" alt="DigitalWERX Cloud Logo" className="venom-logo" />
