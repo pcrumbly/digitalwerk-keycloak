@@ -229,17 +229,17 @@ export default function Login(props: PageProps<Extract<KcContext, { pageId: "log
                         <div className="modal" onClick={(e) => e.stopPropagation()}>
                             <div style={{fontSize: '30px', marginLeft: '10px'}}>About DigitalWERX Cloud</div>
                             <div className="modal-space">
-                                DigitalWERX Cloud is an all-in-one, fully managed digital engineering platform that eliminates the hassle of software management,
-                                vendor integrations, and hiring specialized talent—so you can focus on driving progress. 
+                            DigitalWERX Cloud is a secure, cloud-based platform developed to provide organizations and educators with streamlined access 
+                            to essential digital engineering tools. DigitalWERX simplifies IT operations by offering a ready-to-use digital environment built 
+                            on reliable, off-the-shelf software. Its subscription-based model ensures affordability, scalability, and predictable costs.
                             </div>
                             <div className="modal-space">
-                                Offering secure, customizable environments tailored to your needs, DigitalWERX Cloud delivers cutting-edge 
-                                tools with powerful collaboration features at a fraction of the cost—saving you up to 95% compared to traditional software.
+                            Offering flexible, pre-configured environments built to your mission, DigitalWERX Cloud combines advanced productivity tools with 
+                            seamless collaboration—cutting costs by up to 95% compared to legacy systems.
                             </div>
                             <div className="modal-space">
-                                Built to meet the highest compliance standards, including FedRAMP High and Impact Levels 5 and 6, DigitalWERX Cloud provides seamless
-                                integration with your existing infrastructure,
-                                uncompromising security, and freedom from complexity—all in one streamlined solution.
+                            Our platform fosters operational efficiency, reduces IT burden, and empowers teams to focus on their mission. Ultimately, 
+                            the DigitalWERX Cloud is a practical solution for organizations seeking secure, scalable, and simplified digital infrastructure.
                             </div>
                             <button style={{width: "75px"}} className="registerBtn" onClick={handleShowModal}>Close</button>
                         </div>
