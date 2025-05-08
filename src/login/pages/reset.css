@@ -86,6 +86,10 @@
   align-items: center; */
 }
 
+.kcBodyClass {
+  background: #ffffff !important;
+}
+
 #kc-content-wrapper {
   margin-top: 0 !important;
 }

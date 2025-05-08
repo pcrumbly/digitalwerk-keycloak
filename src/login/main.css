@@ -61,7 +61,7 @@ body {
   width: 55%; 
   height: 100vh; 
   position: relative;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .logo {
