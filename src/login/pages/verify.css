@@ -27,7 +27,7 @@
 }
 
 .backToLogin {
-  color: #E91E2F;
+  color: #ff6905;
   font-size: 16px;
   background-color: transparent;
   border: none;
@@ -35,15 +35,15 @@
 }
 
 .backToLogin:hover {
-  color: #E91E2F !important;
+  color: #ff6905 !important;
   text-decoration: none;
 }
 
 .arrow {
   transform: scaleX(-1); 
   margin-right: 10px; 
-  color: #E91E2F;
-  filter: brightness(0) saturate(100%) invert(17%) sepia(90%) saturate(7500%) hue-rotate(0deg) brightness(95%) contrast(105%);
+  color: #ff6905;
+  filter: brightness(0) saturate(100%) invert(50%) sepia(78%) saturate(1170%) hue-rotate(343deg) brightness(101%) contrast(106%);
 }
 
 .form-container {
@@ -70,7 +70,7 @@
 }
 
 .resetBtn {
-  background-color: #B81220;
+  background-color: #ff6905;
   color: #FAFAFA;
   padding: 6px;
   height: 44px;
@@ -85,7 +85,7 @@
   margin-left: 1rem;
   height: 44px;
   color: #FAFAFA !important;
-  border: 2px solid #B81220; 
+  border: 2px solid #ff6905; 
   border-radius: 4px;
   padding: 8px 12px 8px 12px;
   background-color: #0D0D0D;
@@ -102,6 +102,10 @@
   /* display: flex;
   justify-content: center;
   align-items: center; */
+}
+
+.kcBodyClass {
+  background: #ffffff !important;
 }
 
 #kc-content-wrapper {

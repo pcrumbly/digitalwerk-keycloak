@@ -5,7 +5,7 @@ export const MobileNotSupported = () => {
   return (
     <div className="mobileNotSupported">
       <div>Mobile is not currently supported.</div>
-      <img src={coloredLogo} style={{width: "50%", marginTop: "2rem"}} />
+      <img src="https://241932339.fs1.hubspotusercontent-na2.net/hubfs/241932339/DigitalWERX.png" style={{width: "50%", marginTop: "2rem"}} />
     </div>
   )
 }

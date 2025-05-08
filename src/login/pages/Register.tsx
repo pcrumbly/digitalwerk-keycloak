@@ -130,9 +130,7 @@ export default function Register(props: RegisterProps) {
                     </form>
                 </div>
                 <div className="logo-container">
-                    <img className="logo" src={coloredLogo} />
-                    <img src={login2} alt="Top right img" className="top-right-image" />
-                    <img src={login1} alt="Bottom Left img" className="bottom-left-image" />
+                    <img className="logo" src="https://241932339.fs1.hubspotusercontent-na2.net/hubfs/241932339/DigitalWERX.png" />
                 </div>
             </div>
         </Template>
