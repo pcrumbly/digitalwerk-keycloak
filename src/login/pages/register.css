@@ -1,0 +1,115 @@
+#kc-content-wrapper {
+  margin: 0 !important;
+}
+
+.form-container {
+  display: flex;
+}
+
+.backToLogin {
+  color: #E91E2F;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.backToLogin:hover {
+  color: #E91E2F !important;
+  text-decoration: none;
+}
+
+.arrow {
+  transform: scaleX(-1); 
+  margin-right: 10px; 
+  color: #E91E2F;
+  filter: brightness(0) saturate(100%) invert(17%) sepia(90%) saturate(7500%) hue-rotate(0deg) brightness(95%) contrast(105%);
+}
+
+.register-container {
+  width: 45%;
+  padding: 25px;
+  background-color: #333333 !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.resetBtn {
+  background-color: #B81220;
+  color: #FAFAFA;
+  padding: 6px;
+  height: 44px;
+  width: 86px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+}
+
+#password,
+#password-confirm
+ {
+  border: 1px solid #FAFAFA;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#password:focus,
+#password-confirm:focus,
+#password-confirm:active,
+#password:active {
+  outline: none; 
+  border-right: none !important;
+}
+
+.kcFormPasswordVisibilityIconHide,
+.kcFormPasswordVisibilityIconShow {
+  color: #DB4F59 !important;
+  border-left: none !important;
+  width: 20px;
+}
+
+.kcFormPasswordVisibilityButtonClass {
+  background-color: #0D0D0D !important;
+  border: 1px solid #FAFAFA !important;
+  border-left: none !important;
+}
+
+.pf-c-button .pf-m-control:hover {
+  border: none !important;
+  border-color: transparent !important;
+}
+
+.required {
+  color: #FAFAFA !important;
+}
+
+#kc-register-form {
+  width: 75%;
+  margin-top: 1rem;
+}
+
+#kc-form-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.cancelBtn {
+  text-decoration: none;
+  margin-left: 1rem;
+  height: 44px;
+  color: #FAFAFA !important;
+  border: 2px solid #B81220; 
+  border-radius: 4px;
+  padding: 8px 12px 8px 12px;
+  background-color: #0D0D0D;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.cancelBtn a {
+  text-decoration: none;
+}

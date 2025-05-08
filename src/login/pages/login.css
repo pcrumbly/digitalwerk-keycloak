@@ -1,0 +1,245 @@
+@import url(../assets/fonts/nunito/main.css);
+
+
+#kcInfoAreaWrapperClass {
+  color: red;
+}
+
+.login-pf-signup {
+  color: #FAFAFA !important;
+}
+
+#kc-info-wrapper {
+  background: none;
+  text-align: left;
+  padding: 0 !important;
+}
+
+#kc-info {
+  margin: 0 !important;
+  width: 45%;
+}
+
+#kc-page-title {
+  display: none;
+}
+
+#password {
+  border: 1px solid #FAFAFA;
+  border-right: none;
+  width: 452px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#password:focus,
+#password:active {
+  outline: none; 
+  border-right: none !important;
+}
+
+#username:focus, 
+#username:active {
+  outline: none; 
+}
+
+.loginBtn {
+  background-color: #B81220;
+  color: #FAFAFA;
+  padding: 6px;
+  width: 104px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+}
+
+.registerBtn {
+  text-decoration: none;
+  color: #FAFAFA !important;
+  border: 2px solid #B81220; 
+  border-radius: 4px;
+  padding: 8px 12px 8px 12px;
+  background-color: #0D0D0D;
+  font-size: 16px;
+}
+
+.registerBtn:hover {
+  text-decoration: none;
+}
+
+.passwordIconBtn {
+  background-color: #0D0D0D;
+}
+
+.loginIcon {
+  background-color: #0D0D0D;
+  border: 1px solid #FAFAFA;
+  border-left: none;
+}
+
+span[data-kc-msg="noAccount"] {
+  display: none;
+}
+
+span[data-kc-msg="doForgotPassword"] {
+  color: #DB4F59;
+}
+
+span[data-kc-msg="doForgotPassword"]:hover {
+  color: #B81220 !important;
+}
+
+.about {
+  color: #DB4F59
+}
+
+.about:hover {
+  color: #B81220 !important;
+}
+
+.modal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  color: #FAFAFA;
+  background: #0D0D0D;
+  padding: 20px;
+  width: 640px;
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  display: flex !important;
+  flex-direction: column;
+  font-size: 16px !important;
+  text-align: left;
+  border: 1px solid #7A7A7A;
+}
+
+.modal-space {
+  margin: 1rem 10px 1rem 10px
+}
+
+
+
+.login-container {
+  width: 90%;
+  height: 100vh;
+}
+
+.gradient-background {
+  width: 80%;
+  height: 100vh;
+  background: linear-gradient(167deg, rgba(0, 24, 66, 0.75) 4.72%, rgba(204, 21, 36, 0.75) 95.09%);
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+  position: relative;
+}
+
+.login-right {
+  display: flex;
+  justify-content: center;
+}
+
+.login-logo-container {
+  position: absolute;
+  top: 48%;
+  left: 25%; 
+  transform: translate(-45%, -50%);
+}
+
+.venom-logo {
+  width: 120%; 
+  max-width: 845px; 
+}
+
+@media (min-width: 990px) and (max-width: 1080px) {
+  .venom-logo {
+    max-width: 400px;
+  }
+  .login-logo-container {
+    left: 20%; 
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1400px) {
+  .venom-logo {
+    max-width: 425px;
+  }
+  .login-logo-container {
+    left: 22%; 
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1800px) {
+  .venom-logo {
+    max-width: 600px;
+  }
+  .login-logo-container {
+    left: 22%; 
+  }
+}
+
+.login-left {
+  width: 50%;
+  height: 100vh;
+  background: linear-gradient(167deg, rgba(0, 24, 66, 0.75) 4.72%, rgba(204, 21, 36, 0.75) 95.09%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+  overflow: visible; 
+  position: relative; 
+}
+
+#kc-registration {
+  width: 491px;
+  margin-top: 1.5rem;
+}
+
+.registration {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#kc-content-wrapper {
+  display: flex;
+  margin-top: 0 !important;
+  justify-content: space-between;
+}
+
+.login-top-right-image, .login-bottom-left-image {
+  position: absolute;
+  width: 275px;
+  height: auto;
+}
+
+@media (min-width: 990px) {
+  .login-bottom-left-image {
+    width: 200px; 
+  }
+}
+
+
+.login-top-right-image {
+  top: 0px;
+  right: -4rem;
+}
+
+.login-bottom-left-image {
+  bottom: 0px;
+  left: 0px;
+}

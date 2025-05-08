@@ -1,0 +1,96 @@
+body {
+  font-family: 'Nunito Sans', sans-serif !important;
+  color: #FAFAFA;
+  background: #0D0D0D !important;
+}
+
+.kcLoginClass {
+  /* display: flex;
+  justify-content: end; 
+  margin-right: 7%; */
+  padding: 0 !important;
+}
+
+.card-pf {
+  margin: inherit;
+  border: none;
+  background-color: transparent;
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+
+.kcFormCardClass {
+  box-shadow: none;
+}
+
+.kcFormHeaderClass {
+  display: none !important;
+}
+
+.kcBodyClass {
+  background: #0D0D0D !important;
+}
+
+.kcInputClass {
+  background: #0D0D0D !important;
+  border: 1px solid #D6D6D6 !important;
+  border-radius: 4px;
+  color: #FAFAFA;
+}
+
+.kcHeaderClass {
+  visibility: hidden;
+  height: 0 !important;
+  margin: 0 !important;
+}
+
+#kcInfoAreaWrapperClass {
+  color: red;
+}
+
+.mobileNotSupported {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.logo-container {
+  width: 55%; 
+  height: 100vh; 
+  position: relative;
+  opacity: 0.4;
+}
+
+.logo {
+  width: 870px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-right-image {
+  filter: brightness(10) saturate(100%) invert(12%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(98%) contrast(94%);
+}
+
+.bottom-left-image {
+  filter: brightness(10) saturate(100%) invert(12%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(98%) contrast(94%);
+}
+
+.top-right-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 10;
+  width: 35%;
+}
+
+.bottom-left-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 25%;
+}
