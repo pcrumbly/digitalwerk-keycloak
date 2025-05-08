@@ -10,9 +10,6 @@ import type { KcContext } from "../KcContext";
 import type { I18n } from "../i18n";
 import "./register.css"
 import arrowRightIcon from "../assets/ArrowRight.png";
-import coloredLogo from "../assets/venom-color-logo.png";
-import login1 from "../assets/login-img-1.png";
-import login2 from "../assets/login-img-2.png";
 
 
 type RegisterProps = PageProps<Extract<KcContext, { pageId: "register.ftl" }>, I18n> & {

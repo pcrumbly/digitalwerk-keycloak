@@ -9,8 +9,8 @@
 <@layout.emailLayout>
 ${kcSanitize(msg("emailVerificationBodyHtml",link, linkExpiration, realmName, linkExpirationFormatter(linkExpiration)))?no_esc}
 <img
-  alt="VENOM Logo"
-  src="${url.resourcesUrl}/venom-email-logo.png"
+  alt="DigitalWERX Cloud"
+  src="https://241932339.fs1.hubspotusercontent-na2.net/hubfs/241932339/DigitalWERX.png"
   width="160px"
   height="38px"
 />
